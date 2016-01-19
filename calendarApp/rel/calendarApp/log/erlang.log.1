@@ -1,0 +1,98 @@
+
+=====
+===== LOGGING STARTED Tue Jan 19 09:23:26 IST 2016
+=====
+Exec: /home/sonu/calendarApp/rel/calendarApp/erts-5.10.4/bin/erlexec -boot /home/sonu/calendarApp/rel/calendarApp/releases/1/calendarApp -mode embedded -config /home/sonu/calendarApp/rel/calendarApp/releases/1/sys.config -args_file /home/sonu/calendarApp/rel/calendarApp/releases/1/vm.args -- console ''
+Root: /home/sonu/calendarApp/rel/calendarApp
+{"init terminating in do_boot",{'cannot load',calendarApp_app,get_files}}
+
+Crash dump was written to: erl_crash.dump
+init terminating in do_boot ()
+
+=====
+===== LOGGING STARTED Tue Jan 19 09:24:47 IST 2016
+=====
+Exec: /home/sonu/calendarApp/rel/calendarApp/erts-5.10.4/bin/erlexec -boot /home/sonu/calendarApp/rel/calendarApp/releases/1/calendarApp -mode embedded -config /home/sonu/calendarApp/rel/calendarApp/releases/1/sys.config -args_file /home/sonu/calendarApp/rel/calendarApp/releases/1/vm.args -- console ''
+Root: /home/sonu/calendarApp/rel/calendarApp
+{"init terminating in do_boot",{'cannot load',calendarApp_app,get_files}}
+
+Crash dump was written to: erl_crash.dump
+init terminating in do_boot ()
+
+=====
+===== LOGGING STARTED Tue Jan 19 09:38:13 IST 2016
+=====
+Exec: /home/sonu/calendarApp/rel/calendarApp/erts-5.10.4/bin/erlexec -boot /home/sonu/calendarApp/rel/calendarApp/releases/1/calendarApp -mode embedded -config /home/sonu/calendarApp/rel/calendarApp/releases/1/sys.config -args_file /home/sonu/calendarApp/rel/calendarApp/releases/1/vm.args -- console ''
+Root: /home/sonu/calendarApp/rel/calendarApp
+{"init terminating in do_boot",{'cannot load',calendarApp_app,get_files}}
+
+Crash dump was written to: erl_crash.dump
+init terminating in do_boot ()
+
+=====
+===== LOGGING STARTED Tue Jan 19 09:47:28 IST 2016
+=====
+Exec: /home/sonu/release/calendarApp/rel/calendarApp/erts-5.10.4/bin/erlexec -boot /home/sonu/release/calendarApp/rel/calendarApp/releases/1/calendarApp -mode embedded -config /home/sonu/release/calendarApp/rel/calendarApp/releases/1/sys.config -args_file /home/sonu/release/calendarApp/rel/calendarApp/releases/1/vm.args -- console ''
+Root: /home/sonu/release/calendarApp/rel/calendarApp
+Erlang R16B03 (erts-5.10.4) [source] [smp:4:4] [async-threads:10] [kernel-poll:false]
+
+{global,calendarApp_sup} (<0.217.0>) starting....
+{global,calendarApp_server} (<0.218.0>) starting ......
+Eshell V5.10.4  (abort with ^G)
+(calendarApp@127.0.0.1)1> 
+=INFO REPORT==== 19-Jan-2016::09:47:29 ===
+    application: calendarApp
+    exited: {{shutdown,
+                 {failed_to_start_child,calendarApp_server,
+                     {undef,
+                         [{mnesia,create_schema,
+                              [['calendarApp@127.0.0.1']],
+                              []},
+                          {calendarApp_db,init,0,
+                              [{file,"src/calendarApp_db.erl"},{line,7}]},
+                          {calendarApp_server,init,1,
+                              [{file,"src/calendarApp_server.erl"},{line,49}]},
+                          {gen_server,init_it,6,
+                              [{file,"gen_server.erl"},{line,304}]},
+                          {proc_lib,init_p_do_apply,3,
+                              [{file,"proc_lib.erl"},{line,239}]}]}}},
+             {calendarApp_app,start,[normal,[]]}}
+    type: permanent
+{"Kernel pid terminated",application_controller,"{application_start_failure,calendarApp,{{shutdown,{failed_to_start_child,calendarApp_server,{undef,[{mnesia,create_schema,[['calendarApp@127.0.0.1']],[]},{calendarApp_db,init,0,[{file,\"src/calendarApp_db.erl\"},{line,7}]},{calendarApp_server,init,1,[{file,\"src/calendarApp_server.erl\"},{line,49}]},{gen_server,init_it,6,[{file,\"gen_server.erl\"},{line,304}]},{proc_lib,init_p_do_apply,3,[{file,\"proc_lib.erl\"},{line,239}]}]}}},{calendarApp_app,start,[normal,[]]}}}"}
+
+Crash dump was written to: erl_crash.dump
+Kernel pid terminated (application_controller) ({application_start_failure,calendarApp,{{shutdown,{failed_to_start_child,calendarApp_server,{undef,[{mnesia,create_schema,[['calendarApp@127.0.0.1']],
+
+=====
+===== LOGGING STARTED Tue Jan 19 09:49:13 IST 2016
+=====
+Exec: /home/sonu/release/calendarApp/rel/calendarApp/erts-5.10.4/bin/erlexec -boot /home/sonu/release/calendarApp/rel/calendarApp/releases/1/calendarApp -mode embedded -config /home/sonu/release/calendarApp/rel/calendarApp/releases/1/sys.config -args_file /home/sonu/release/calendarApp/rel/calendarApp/releases/1/vm.args -- console ''
+Root: /home/sonu/release/calendarApp/rel/calendarApp
+Erlang R16B03 (erts-5.10.4) [source] [smp:4:4] [async-threads:10] [kernel-poll:false]
+
+{global,calendarApp_sup} (<0.217.0>) starting....
+{global,calendarApp_server} (<0.218.0>) starting ......
+Eshell V5.10.4  (abort with ^G)
+(calendarApp@127.0.0.1)1> 
+=INFO REPORT==== 19-Jan-2016::09:49:13 ===
+    application: calendarApp
+    exited: {{shutdown,
+                 {failed_to_start_child,calendarApp_server,
+                     {undef,
+                         [{mnesia,create_schema,
+                              [['calendarApp@127.0.0.1']],
+                              []},
+                          {calendarApp_db,init,0,
+                              [{file,"src/calendarApp_db.erl"},{line,7}]},
+                          {calendarApp_server,init,1,
+                              [{file,"src/calendarApp_server.erl"},{line,49}]},
+                          {gen_server,init_it,6,
+                              [{file,"gen_server.erl"},{line,304}]},
+                          {proc_lib,init_p_do_apply,3,
+                              [{file,"proc_lib.erl"},{line,239}]}]}}},
+             {calendarApp_app,start,[normal,[]]}}
+    type: permanent
+{"Kernel pid terminated",application_controller,"{application_start_failure,calendarApp,{{shutdown,{failed_to_start_child,calendarApp_server,{undef,[{mnesia,create_schema,[['calendarApp@127.0.0.1']],[]},{calendarApp_db,init,0,[{file,\"src/calendarApp_db.erl\"},{line,7}]},{calendarApp_server,init,1,[{file,\"src/calendarApp_server.erl\"},{line,49}]},{gen_server,init_it,6,[{file,\"gen_server.erl\"},{line,304}]},{proc_lib,init_p_do_apply,3,[{file,\"proc_lib.erl\"},{line,239}]}]}}},{calendarApp_app,start,[normal,[]]}}}"}
+
+Crash dump was written to: erl_crash.dump
+Kernel pid terminated (application_controller) ({application_start_failure,calendarApp,{{shutdown,{failed_to_start_child,calendarApp_server,{undef,[{mnesia,create_schema,[['calendarApp@127.0.0.1']],

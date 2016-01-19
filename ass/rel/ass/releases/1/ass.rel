@@ -1,0 +1,5 @@
+%% rel generated at {2016,1,19} {9,21,8}
+{release,{"ass","1"},
+         {erts,"5.10.4"},
+         [{kernel,"2.16.4"},{stdlib,"1.19.4"},{sasl,"2.3.4"},{ass,"1"}]}.
+
